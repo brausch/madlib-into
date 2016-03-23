@@ -17,4 +17,14 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  $("#letter form").submit(function(event) {
+    var nameInput = $("input#name").val();
+
+    $(".name").text(nameInput);
+
+    $("#letterOutput").show();
+
+    event.preventDefault();
+  });
 });

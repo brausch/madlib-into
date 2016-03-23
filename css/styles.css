@@ -1,3 +1,7 @@
 #story {
   display: none;
 }
+
+#letterOutput {
+  display: none;
+}

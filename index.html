@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Madlibs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>A Mad Madlib - Fill in the blanks</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person1">A hipster name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="adjective">adjective</label>
+            <input id="adjective" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="activity">Activity</label>
+            <input id="activity" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="exclamation">Exclamation</label>
+            <input id="exclamation" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="emotion">Emotion</label>
+            <input id="emotion" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+      <div id="story">
+        <h1>The Day I Forgot it Was Raining</h1>
+        <p>
+          Once upon a time, there was a hipster named <span class="person1"></span> who was very <span class="adjective"></span>. His favorite activity was <span class="activity"></span> but it was raining that day and he couldn't do it. "<span class="exclamation"></span>!," said <span class="person1"></span>, "I get <span class="emotion"></span> when it rains."
+        </p>
+      </div>
+    </div>
+  </body>
